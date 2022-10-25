@@ -1,0 +1,117 @@
+header{
+    background-image: url(../imgs/events-heavenly-header.jpg);
+    background-size: 100% 100%;
+}
+h1{
+    font-size: 60px;
+}
+.headerLayer{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(255, 0, 0, 0.406);
+}
+.nav-side{
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    z-index: 99999;
+    background-color: #414658;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.openclick{
+    cursor: pointer;
+    margin-top: -70px;
+    transition: 0.3 all;
+    -webkit-transition: 0.3 all;
+    -moz-transition: 0.3 all;
+    -ms-transition: 0.3 all;
+    -o-transition: 0.3 all;
+}
+.nav-links a:hover{
+    color: brown;
+}
+.closeIcon h3:hover{
+    color: brown;
+}
+.closeIcon h3{
+    right: 30px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.closeIcon h3:hover{
+    color: brown;
+}
+/*********************/
+.innerdiv{
+    cursor: pointer;
+   
+}
+.details-caption{
+    background-color:#CCCCCC;
+    display: none;
+}
+/*******************/
+.duration{
+    background-image: url(../imgs/invitation-2508607__340.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.duration-layer{
+    background-color: rgba(255, 0, 0, 0.434);
+}
+.details-caption{
+    cursor:default;
+}
+/*************/
+.CONTACT-INFO{
+    font-size: 18px;
+    color: #444444;
+    font-family: 'Roboto', sans-serif;
+}
+.iconBox i{
+    width: 40px;
+    height: 40px;
+    color: #444444bc;
+    border: 1px solid #4444447b;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconBox i:hover{
+    background-color: rgba(255, 0, 0, 0.711);
+    color: white;
+    border-color: transparent;
+}
+.contact-caotion h2{
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+}
+
+
+.reloadlayer{
+    z-index: 9999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    overflow: hidden;
+}
